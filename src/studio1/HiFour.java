@@ -8,6 +8,8 @@ import java.util.Scanner;
  */
 public class HiFour {
 	public static void main(String[] args) {
+		
+		System.out.println("Greeting" + " " + "Cormen" + "," + " " + "Leiserson" + "," + " "+ "Rivest" + "," + "and" + " "+ "Stein");
 		Scanner in = new Scanner(System.in);
 		System.out.print("Enter value for arg 0: ");
 		String s0 = in.nextLine();
@@ -20,6 +22,8 @@ public class HiFour {
 		//
 		// Say hello to the names in s0 through s3.
 		//
+		
+		
 
 	}
 }
